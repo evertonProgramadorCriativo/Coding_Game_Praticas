@@ -52,3 +52,18 @@ o valor da potência real é limitado ao valor da volta anterior+/- 1.
 ------------------------------------------------------------------------
 
 5 qual é sequência de passos a ser feitas para chegar ao resultado esperado?
+
+var N = parseInt(readline());
+for (var i = 0; i < N; i++) {
+    var inputs = readline().split(' ');
+}
+
+while (true) {
+    var inputs = readline().split(' ');
+    var VS = parseInt(inputs[3]);
+
+    if (VS <= -40)
+        console.log('0 4');
+    else 
+        console.log("0 0")
+}
