@@ -3,8 +3,12 @@ Metodo 5q´s para montar um algoritmo
 1 Quais são os dados de entrada necessários?
 
 
+
 2 O que devo fazer com estes dados ?
 
+R: o programa deve ler os dados da entrada padrão relacionados ao 
+estado atual do Mars Lander e fornecer à saída padrão as instruções 
+para mover o Mars Lande
 
 3 Quais são as restrições deste problema?
 
