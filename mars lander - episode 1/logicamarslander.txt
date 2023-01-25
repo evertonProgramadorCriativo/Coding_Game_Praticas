@@ -2,7 +2,23 @@ Metodo 5q´s para montar um algoritmo
 
 1 Quais são os dados de entrada necessários?
 
+Variaveis ( x,Y )são as coordenadas de Mars Lander (em metros).
+--------------------------------------------------------------
+Variaveis (hVelocidade e vSpeedsão ) as velocidades horizontal e vertical de
+ Mars Lander (em m/s). Estes podem ser negativos dependendo da
+  direção de Mars Lander.
+--------------------------------------------------------------  
 
+Variaveis (combustível )é a quantidade restante de combustível em litros. 
+Quando não há mais
+ combustível, a potência dos propulsores cai para zero.
+
+-------------------------------------------------------------- 
+Variaveis (girar) é o ângulo de rotação de Mars Lander expresso em graus.
+
+-------------------------------------------------------------- 
+
+Variaveis ( potência ) é a potência de empuxo do navio de desembarque.
 
 2 O que devo fazer com estes dados ?
 
@@ -14,6 +30,11 @@ para mover o Mars Lande
 
 
 4 Qual é o resultado esperado?
+
+R: o valor real do ângulo é limitado ao valor da curva anterior+/- 15°
+
+R:é a potência de empuxo desejada.0= desligado.4= potência máxima,
+o valor da potência real é limitado ao valor da volta anterior+/- 1.
 
 
 5 qual é sequência de passos a ser feitas para chegar ao resultado esperado?
