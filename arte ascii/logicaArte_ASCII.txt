@@ -4,6 +4,9 @@ Metodo 5q´s para montar um algoritmo
 
 2 O que devo fazer com estes dados ?
 
+ R:  escrever um programa que possa exibir uma linha
+  de texto em arte ASCII em um estilo fornecido como entrada
+
 3 Quais são as restrições deste problema?
 
 4 Qual é o resultado esperado?
