@@ -1,0 +1,15 @@
+Ciclo de Desenvolvimento de SoftWare
+
+
+1° Estágio  - Idealização 
+
+2° Estágio  - Especificação de Requisitos : o que o sofwtare deve ou não fazer
+
+
+3° Estágio  - Validação de Solução :  ver ser todos requisitos  foram preenchido  
+
+
+4°Estágio - Desenvolvimento e Testes
+
+
+5ºEstágio  - Implantação e Entrega
