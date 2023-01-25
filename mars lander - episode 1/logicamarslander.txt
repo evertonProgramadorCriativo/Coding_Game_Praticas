@@ -28,13 +28,27 @@ para mover o Mars Lande
 
 3 Quais são as restrições deste problema?
 
+2 ≤ superfícieN < 30
+-----------------------------
+0 ≤ x < 7000
+-----------------------------
+0 ≤ Y < 3000
+-----------------------------
+-500 < hVelocidade,vSpeed < 500
+-----------------------------
+0 ≤ combustível ≤ 2000
+-----------------------------
+-90 ≤ girar ≤ 90
+-----------------------------
+0 ≤ potência ≤ 4
+-----------------------------
 
 4 Qual é o resultado esperado?
-
+------------------------------------------------------------------------
 R: o valor real do ângulo é limitado ao valor da curva anterior+/- 15°
-
+------------------------------------------------------------------------
 R:é a potência de empuxo desejada.0= desligado.4= potência máxima,
 o valor da potência real é limitado ao valor da volta anterior+/- 1.
-
+------------------------------------------------------------------------
 
 5 qual é sequência de passos a ser feitas para chegar ao resultado esperado?
