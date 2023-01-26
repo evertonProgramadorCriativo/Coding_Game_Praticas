@@ -1,0 +1,3 @@
+var L = parseInt(readline()); //length of each letter
+var H = parseInt(readline()); //height of each row
+var T = readline(); //the letter or set of letters to print
