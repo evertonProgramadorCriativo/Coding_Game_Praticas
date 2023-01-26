@@ -10,3 +10,14 @@ var alphabetMap = {};
 for (var j = alphabetArray.length - 1; j >= 0; j--) {
     alphabetMap[alphabetArray[j]] = [];
 }
+
+var asciiArray = [];
+for (var i = 0; i < H; i++) {
+    var ROW = readline();
+    var currentLetterIndex = 0;
+    for (var j = 0; j < alphabetArray.length; j++) {
+        var thisLetter = alphabetArray[j];
+        alphabetMap[thisLetter][i] = ROW.substr(currentLetterIndex, L);
+        currentLetterIndex += L;
+    }
+}
