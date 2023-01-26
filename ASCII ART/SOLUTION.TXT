@@ -21,3 +21,15 @@ for (var i = 0; i < H; i++) {
         currentLetterIndex += L;
     }
 }
+
+var result = '';
+for (var j = 0; j < H; j++) { //each line by height
+    for (var i = 0; i < letters.length; i++) { //each letter in output
+        var thisLetter = letters[i];
+        if ((thisLetter < 'A') || (thisLetter > 'Z')) {
+            thisLetter = '?';
+        }
+        result += alphabetMap[thisLetter][j];
+    }
+    result += '\n';
+}
