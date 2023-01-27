@@ -6,4 +6,8 @@ var res = "";
 var pre = -1;
 
  
- 
+ for (var i = 0; i < MESSAGE.length; i++) {
+
+       res+= "0";
+    }
+}
