@@ -1,1 +1,9 @@
 //strings, encoding ,Loops ,Conditions
+
+var MESSAGE = readline();
+
+var res = "";
+var pre = -1;
+
+ 
+ 
