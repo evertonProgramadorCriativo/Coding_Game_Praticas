@@ -10,5 +10,12 @@ if( n < 2 )
 {
     var horses = [];
     
-  
+      for (var i = 0; i < n; i++) {
+       horses.push(parseInt(readline()));  
+    }
+    
+    horses.sort(sortHorses);
+    printErr(horses);
+    
+    var smallestDiff = horses[1] - horses[0];
 }
