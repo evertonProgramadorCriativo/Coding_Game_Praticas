@@ -20,3 +20,13 @@ fscanf(STDIN, "%d",
 $minx = $miny  = 0;
 $maxx = $W - 1;
 $maxy = $H - 1;
+
+// game loop
+while (TRUE)
+{
+    fscanf(STDIN, "%s",
+        $bombDir // the direction of the bombs from batman's current location (U, UR, R, DR, D, DL, L or UL)
+    );
+
+   
+}
