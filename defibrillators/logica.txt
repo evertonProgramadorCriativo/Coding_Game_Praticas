@@ -20,4 +20,10 @@ for (let i = 0; i < N; i++) {
     x = (longtitudeB - longtitudeA) * Math.cos((latitudeA + latitudeB)/2);
     y = latitudeB - latitudeA;
     d = Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2)) * 6371;
+
+        if (d < minDestination) {
+        minDestination = d;
+        nearestPoint = i;
+    }
+    printErr(`${i}: ${x}, ${y}, ${d}, ${minDestination}, ${nearestPoint}`);
 }
