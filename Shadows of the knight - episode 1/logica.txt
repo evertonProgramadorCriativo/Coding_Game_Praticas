@@ -1,0 +1,16 @@
+em php
+
+<?php
+/**
+ * Auto-generated code below aims at helping you parse
+ * the standard input according to the problem statement.
+ **/
+
+fscanf(STDIN, "%d %d",
+    $W, // width of the building.
+    $H // height of the building.
+);
+fscanf(STDIN, "%d",
+    $N // maximum number of turns before game over.
+);
+ 
