@@ -1,4 +1,4 @@
- Distances, Loops, Trigonometry
-
-subir para o github amnaha
---------------------------------------------
+const longtitudeA = parseFloat(readline().replace(',', '.'));
+const latitudeA = parseFloat(readline().replace(',', '.'));
+const N = parseInt(readline());
+let defibs = [];
