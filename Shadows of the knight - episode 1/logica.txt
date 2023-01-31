@@ -28,5 +28,12 @@ while (TRUE)
         $bombDir // the direction of the bombs from batman's current location (U, UR, R, DR, D, DL, L or UL)
     );
 
-   
+   if(strpos($bombDir, "U")!==false)
+        $maxy = $Y0 - 1;
+    elseif (strpos($bombDir, "D")!==false)
+        $miny = $Y0 + 1;
+    if(strpos($bombDir, "L")!==false)
+        $maxx = $X0 - 1;
+    elseif (strpos($bombDir, "R")!==false)
+ 
 }
