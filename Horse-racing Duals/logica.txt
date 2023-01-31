@@ -1,0 +1,4 @@
+function sortHorses(a , b )
+{
+    return a-b;
+}
