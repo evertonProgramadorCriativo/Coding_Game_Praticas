@@ -2,3 +2,13 @@ function sortHorses(a , b )
 {
     return a-b;
 }
+
+if( n < 2 )
+{
+    console.log(readline());
+}else
+{
+    var horses = [];
+    
+  
+}
