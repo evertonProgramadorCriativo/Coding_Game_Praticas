@@ -9,3 +9,11 @@ let y = 0;
 let d = 0;
 let longtitudeB = 0;
 let latitudeB = 0;
+
+for (let i = 0; i < N; i++) {
+    defibs[i] = readline().split(';');
+    defibs[i][4] = parseFloat(defibs[i][4].replace(',', '.'));
+    defibs[i][5] = parseFloat(defibs[i][5].replace(',', '.'));
+    
+    
+}
