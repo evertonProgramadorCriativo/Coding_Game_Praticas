@@ -18,4 +18,12 @@ lines = []
                    break
        except Exception:
            pass
-    
+       try:
+           for ty in range(y+1, height):
+               if(lines[ty][x]=='0'):
+                   bx = x
+                   by =ty
+                   break
+       except Exception:
+           pass
+      
