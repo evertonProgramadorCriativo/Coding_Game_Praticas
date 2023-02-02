@@ -5,4 +5,17 @@ lines = []
  for i in range(height):
     line = input()  # width characters, each either 0 or .
     lines.append(list(line))
- 
+ for y in range(height):
+    for x in range(width):
+       if lines[y][x]==".":
+           continue
+       rx = ry = bx = by = -1
+       try:
+           for tx in range(x+1,width):
+               if(lines[y][tx]=='0'):
+                   rx = tx
+                   ry = y
+                   break
+       except Exception:
+           pass
+    
